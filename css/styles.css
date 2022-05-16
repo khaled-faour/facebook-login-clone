@@ -39,10 +39,51 @@ body{
 }
 
 .content .form input{
-    width: 364px;
-    padding: 6px;
+    width: 330px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+
+}
+.content .form input:focus{
+    border-color: #1877f2;
 }
 
+.content .form .login-button, .content .form .signup-button{
+    width: 364px;
+    padding: 14px 16px;
+    margin-top: 6px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+.content .form .login-button:hover{
+    background-color: #166fe5;
+    border-color: #166fe5;
+}
+.content .form .signup-button{
+    background-color: #42b72a;
+    font-size: 17px;
+    width: 200px;
+}
+.content .form .signup-button:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.content .form a{
+    margin-top: 16px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
 .content hr{
     border: none;
     border-top: 1px solid #dadde1;
