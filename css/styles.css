@@ -23,3 +23,29 @@ body{
     font-weight: normal;
     font-size: 28px;
 }
+
+.content .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 396px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px 0 28px;
+}
+
+.content .form input{
+    width: 364px;
+    padding: 6px;
+}
+
+.content hr{
+    border: none;
+    border-top: 1px solid #dadde1;
+    width: calc(100% - 40px);
+    margin: 20px 16px;
+}
