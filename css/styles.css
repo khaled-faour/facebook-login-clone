@@ -17,3 +17,8 @@ body{
 .content .description .logo{
     height: 106px;
 }
+
+.content .description h2{
+    font-weight: normal;
+    font-size: 28px;
+}
