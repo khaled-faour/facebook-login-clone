@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f0f2f5;
+    margin: 0;
 }
 .container{
     display: flex;
@@ -15,6 +16,7 @@ body{
     align-items: flex-start;
     gap: 64px;
     margin: 0 auto;
+    padding-bottom: 112px;
 }
 .description{
     display: flex;
@@ -101,7 +103,47 @@ body{
     width: calc(100% - 40px);
     margin: 20px 16px;
 }
+.footer{
+    background-color: white;
+    padding: 50px 80px 10px;
+    line-height: 1.6;
+    color: #737373
+}
+.footer .languages ul, .footer .links ul{
+    padding-left: 0;
+    padding-top: 8px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 12px;
+}
+.footer .links ul{
+    margin-left: -20px;
+}
+.footer .languages ul a{
+    color: #737373;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.footer .links ul a{
+    color: #737373;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.footer .languages ul a:hover, .footer .links ul a:hover{
+    text-decoration: underline;
+}
 
+.footer hr{
+    border: none;
+    border-top: 1px solid #dadde1;
+}
+
+.footer .copyright{
+    padding-top: 8px;
+    font-size: 11px;
+}
 @media only screen and (max-width:1075px){
     .content .description{
         width: 400px;
